@@ -29,8 +29,8 @@ h1 {
 }
 
 img {
-    height: 200px;
-    width: 200px;
+    height: 165px;
+    width: 165px;
     border-radius: 50%;
 }
 
@@ -76,4 +76,9 @@ img:hover {
     display: inline;
     padding: 10px;
     border-radius: 10px;
+}
+
+.changeBackground {
+    transition: 0.3s;
+    border-radius: 30px;
 }

@@ -21,6 +21,7 @@ const showWinner = (userWin, userChoice, compChoice) => {
         msg.style.backgroundColor = "red";
         compScore.innerText++;
     }
+
 }
 const genCompChoice = () => {
     const options = ["Rock", "Paper", "Scissors"];
@@ -34,8 +35,9 @@ const playGame = (userChoice) => {
     const compChoice = genCompChoice();
     console.log("comp Choice = ", compChoice);
 
-    if (userChoice === compChoice)
+    if (userChoice === compChoice) {
         drawGame();
+    }
     else {
         let userWin = true;//keep track is user win
         if (userChoice === "Rock") {
@@ -58,7 +60,12 @@ const playGame = (userChoice) => {
 choices.forEach((choice) => {
     choice.addEventListener("click", () => {
         let userChoice = choice.getAttribute("id");
-
         playGame(userChoice);
+        choice.classList.add("changeBackground");
+        
+        setTimeout(() => {
+            choice.classList.remove("changeBackground");
+        }, 500); //delay
+
     });
 });

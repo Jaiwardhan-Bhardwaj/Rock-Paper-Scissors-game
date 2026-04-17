@@ -21,10 +21,10 @@ A simple and interactive Rock Paper Scissors game built using **HTML, CSS and Ja
 4. Score updates automatically
 
 ## 📂 Project Structure
-index.html
-style.css
-script.js
-images/
+-index.html
+-style.css
+-script.js
+-images/
 
 ## Author
 Made by **Jaiwardhan Bhardwaj**

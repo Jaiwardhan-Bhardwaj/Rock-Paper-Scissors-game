@@ -7,7 +7,6 @@ A simple and interactive Rock Paper Scissors game built using **HTML, CSS and Ja
 - Random computer moves
 - Live score tracking
 - Instant win / lose / draw result
-- Responsive UI
 
 ## 🛠️ Technologies Used
 - HTML
@@ -21,10 +20,15 @@ A simple and interactive Rock Paper Scissors game built using **HTML, CSS and Ja
 4. Score updates automatically
 
 ## 📂 Project Structure
--index.html
--style.css
--script.js
--images/
-
+📦 Rock-Paper-Scissors
+ ┣ 📜 index.html
+ ┣ 📜 style.css
+ ┣ 📜 script.js
+ ┣ 📂 images
+ ┃ ┣ rock.jpg
+ ┃ ┣ paper.jpg
+ ┃ ┗ scissors.jpg
+ ┗ 📜 README.md
+ 
 ## Author
 Made by **Jaiwardhan Bhardwaj**

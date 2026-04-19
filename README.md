@@ -20,15 +20,18 @@ A simple and interactive Rock Paper Scissors game built using **HTML, CSS and Ja
 4. Score updates automatically
 
 ## 📂 Project Structure
-📦 Rock-Paper-Scissors
- ┣ 📜 index.html
- ┣ 📜 style.css
- ┣ 📜 script.js
- ┣ 📂 images
- ┃ ┣ rock.jpg
- ┃ ┣ paper.jpg
- ┃ ┗ scissors.jpg
- ┗ 📜 README.md
- 
+
+```
+Rock-Paper-Scissors
+│   index.html
+│   style.css
+│   script.js
+│
+└───images
+        Paper.jpg
+        Rock.jpg
+        Scissor.jpg
+```
+
 ## Author
 Made by **Jaiwardhan Bhardwaj**
